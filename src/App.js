@@ -9,12 +9,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar />
-      </header>
       <div >
         <Switch>
-          <Route exact path={"/"} render={() => (<Cube />)} />
+          <Route exact path={"/Cube"} render={() => (<Cube />)} />
         </Switch>
       </div>
+      </header>
     </div>
   );
 }
