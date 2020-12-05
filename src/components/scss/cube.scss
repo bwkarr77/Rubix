@@ -1,0 +1,24 @@
+.cube {
+  width: 100vw;
+  background: lightblue;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.controls {
+  width: 25%;
+  height: auto;
+  background: lightgoldenrodyellow;
+
+  .buttons {
+  }
+}
+
+.display {
+  background: brown;
+  width: 65%;
+}
